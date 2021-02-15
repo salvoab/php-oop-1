@@ -87,9 +87,9 @@ $macchine = [
         <div class="lista-macchine">
             <?php foreach($macchine as $macchina){ ?>
                 <div class="macchina">
-                    <h3>Marca: <?php echo $macchina->marca ?></h3>
-                    <h3>Modello: <?php echo $macchina->modello ?></h3>
-                    <h3>Colore: <?php echo $macchina->colore ?></h3>
+                    <h3>Marca: <?php echo $macchina->marca; ?></h3>
+                    <h3>Modello: <?php echo $macchina->modello; ?></h3>
+                    <h3>Colore: <?php echo $macchina->colore; ?></h3>
                     <p>Muovi: <?php echo $macchina->muovi(); ?></p>
                 </div>
             <?php } ?>
@@ -108,9 +108,9 @@ $macchine = [
         <div class="lista-macchine">
             <?php foreach($macchine as $macchina){ ?>
                 <div class="macchina">
-                    <h3>Marca: <?php echo $macchina->marca ?></h3>
-                    <h3>Modello: <?php echo $macchina->modello ?></h3>
-                    <h3>Colore: <?php echo $macchina->colore ?></h3>
+                    <h3>Marca: <?php echo $macchina->marca; ?></h3>
+                    <h3>Modello: <?php echo $macchina->modello; ?></h3>
+                    <h3>Colore: <?php echo $macchina->colore; ?></h3>
                     <p>Muovi: <?php echo $macchina->muovi(); ?></p>
                 </div>
             <?php } ?>
