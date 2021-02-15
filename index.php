@@ -16,7 +16,7 @@ class Automobile {
     public $colore;
     public $accesa;
 
-    public function __construct(string $marca, string $modello, string $colore, $accesa=false) {
+    public function __construct(string $marca, string $modello, string $colore, bool $accesa=false) {
         $this->marca = $marca;
         $this->modello = $modello;
         $this->colore = $colore;
